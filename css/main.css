@@ -42,7 +42,8 @@ img{
     border-radius: 3px;
     filter: grayscale(70%) blur(0.3px);
     position: relative;
-    transition: all linear 0.5s, transform 0.2s ease-out;
+    transition: filter linear 0.5s, transform 0.2s ease-out;
+    -webkit-transition: filter linear 0.5s, transform 0.2s ease-out;
 }
 img:hover{
     filter: none;
